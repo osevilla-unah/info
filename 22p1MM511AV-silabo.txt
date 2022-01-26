@@ -1,0 +1,180 @@
+======================================
+SILABO MM-511 Análisis Vectorial
+I periodo académico 2022
+======================================
+
+Docente: Oswaldo Sevilla
+
+correo: osevilla {arroba} unah.edu.hn
+
+sección: 1300
+
+Consultas previa cita
+
+
+----------------------
+Descripción del curso
+----------------------
+
+Este es el curso de Análisis Vectorial. Los métodos que estudiaremos
+tienen basta aplicación en Física, Geometría, Álgebra y Análisis.
+
+El Análisis Vectorial aplicado en Física tiene una naturaleza
+fundamentalmente geométrica. Entre las aplicaciones que tienen
+los métodos que se estudiarán en esta clase estan: Electromagnetismo,
+Mecánica clásica, Elasticidad y Mecánica del medio contínuo, Teoría 
+de cuerdas, Teoría de la Relatividad Especial y General, Geometría
+Riemanniana, Geometría Diferencial (Formas de conexión, Geometría de Cartan).
+
+
+----------------------
+Texto
+----------------------
+
+<ul>
+<li>M. Spivak, Calculus on Manifolds
+<li>Flanders, Differential Forms with Applications to the Physical Sciences
+</ul>
+
+
+----------------------
+Evaluación
+----------------------
+
+La evaluación será basada en asignaciones y 3 exámenes.
+
+Asignaciones varias: 20 
+examenes: 80 
+Total: 100 
+
+Las fechas de examen se discutirán en los primeros días
+del curso. Las evaluaciones se harán en las fechas más
+adecuadas para el curso según la evolución del mismo.
+
+Los exámenes pueden estar sujetos a una exposición de
+parte del alumno o entrevista para tener una idea más clara
+del trabajo y resultados realizados.
+
+Las fechas de evaluaciones propuestas a continuación son tentativas:
+
+Examen 1: 
+Examen 2: 
+Examen 3: 
+Reposición: 
+
+
+----------------------
+Sobre las asignaciones
+----------------------
+
+Se motiva al estudiante, para su propio provecho y en caso
+que no lo conozca, a aprender a usar el lenguaje
+latex o cualquiera de sus variantes. Aún así, no
+será requerido. Estas variantes de tex son especialmente
+adecuadas para citar fuentes bibliográficas. Hay
+varias distribuciones disponibles. Si el estudiante no
+tiene experiencia con esto, se recomienda que
+converse con el docente al respecto.
+
+Los reportes pueden entregarse de varias formas:
+* formato txt, con cuidado de redactar un documento
+    adecuado. No es difícil en gneeral.
+* formato pdf, escritos usando LaTeX .
+* formato pdf producido usando cualquier otro
+    lenguaje o aplicación (Markdown, Lyx, etc.).
+* formato html que use mathjax (de ser necesario usar mathjax),
+    donde los símbolos matemáticos se muestren bien.
+* a mano (previa aprobación del docente), en un
+    solo archivo pdf. DEBE ser legible, no debe ser oscuro.
+
+La simplicidad de los archivos de texto llano (txt) es algo
+que actualmente no se valora.
+
+Si el estudiante desea usar otro tipo de archivo
+que no sea uno listado arriba para los reportes,
+debe consultarlo previamente con el docente. 
+
+NUNCA envíen archivos de Word.
+
+Cuando se solicite al alumno algún tipo de archivo
+como información complementaria a su trabajo,
+ha de ser provisto en un archivo zip o tgz adjunto
+al archivo del reporte.
+
+En resumen, se entregarán los archivos en .pdf , .txt ,
+.html , .zip  o .tgz , o combinación de ellos.
+
+Los estudiantes deben hacer uso correcto de citas
+bibliográficas de cualquier fuente a la que hagan
+referencia. Para ello se aconseja el uso del
+lenguaje latex.
+
+
+----------------------
+Reglas generales
+----------------------
+
+* Toda comunicación oficial respecto a la clase debe
+    realizarse a través del correo institucional. Hay
+    canales alternativos de comunicación que pueden ser
+    convenientes para informar (Campus Virtual, Telegram,
+    etc), pero solicitudes respecto a la clase, como por
+    ejemplo comunicar problemas de envíos de asignaciones,
+    han de realizarse por fuerza a través de los correos
+    institucionales, tanto del docente como del alumno.
+* Todo comentario, duda o queja respecto a la clase debe ser
+    conversado primero con el Profesor antes de considerar
+    vías alternas.
+* Es inaceptable una queja o inconformidad con la clase
+    que se exprese a otros docentes o jefes de unidades
+    sin que se haya conversado directamente con el docente.
+    Debe respetarse la jerarquía. Esto es directriz general
+    para el comportamiento en el medio unviersitario.
+* El plagio y deshonestidad son prohibidos. Naturalmente.
+    Es prohibido copiar o dar copia, ser autor o cómplice.
+    Estas actitudes están sujetas a las consecuencias
+    correspondientes.
+* Las fechas y horas de una tarea se expresan directamente
+    en la descripción de la misma, es la única hora oficial.
+    La hora que muestre el Campus Virtual no es la definición
+    de la hora de entrega, y si es distinta siempre la hora
+    oficial será la indicada en la noticia de la tarea.
+    Claramente, el docente puede corregirla si existe alguna
+    incoherencia o problema.
+* Es responsabilidad del estudiante revisar que cada
+    asignación se suba de forma exitosa a la plataforma.
+    Deben estar pendientes de esto cada vez que suban
+    asignaciones.
+* Solamente se aceptarán asignaciones subidas al Campus
+    Virtual en el tiempo establecido. No se aceptarán
+    trabajos fuera de tiempo.
+* El tiempo de entrega de exámenes en el Campus Virtual es
+    estricto. Ese horario es inamovible.
+* Si fallan la hora máxima de entrega cualquiera por una
+    razón justificable, es necesario que avisen a más tardar
+    48 horas después de la hora límite de entrega. De otra
+    forma su caso NO SERÁ CONSIDERADO. Que la razón sea
+    justificable dependerá del criterio del docente al
+    conversar al respecto, o de un juicio posterior por
+    parte de las autoridades de la Carrera de Matemáticas.
+* Los días justo antes de subir notas no son días para
+    presentar noticias o excusas respecto a problemas de la
+    clase. Cualquier discusión al respecto tiene que ser
+    antes de ese tiempo, de lo contrario se tomará como
+    irresponsabilidad, a menos que las circunstancias lo
+    justifiquen.
+* Inconformidades con las medidas del docente deben
+    expresarse directamente al docente, para poder presentarlas
+    a consideración de los superiores inmediatos en la
+    Carrera de Matemáticas.
+* Las instrucciones en los exámenes y asignaciones deben
+    seguirse al pie de la letra, a menos que el docente
+    de una libertad explícita al respecto. Es una falta
+    no seguirlas sin pedir autorización al docente.
+* El examen de reposición incluye el contenido de todo el
+    curso.
+* Es prohibido grabar la clase sin consentimiento del docente.
+* No deben compartirse ningún material de la clase con 
+    personas externas al curso sin consentimiento del docente.
+
+(edición 2201225)
