@@ -26,15 +26,25 @@ Mecánica clásica, Elasticidad y Mecánica del medio contínuo, Teoría
 de cuerdas, Teoría de la Relatividad Especial y General, Geometría
 Riemanniana, Geometría Diferencial (Formas de conexión, Geometría de Cartan).
 
+Temas:
+
+* Cálculo de sistemas de Frenet y curvatura
+* Haces y Campos vectoriales en R^n
+* Integrales de campos vectoriales, de línea, de superficie.
+* Teoremas integrales: Green, Gauss, Stokes. (funciones de Green)
+* Variedades diferenciales y Formas diferenciales
+* Haces y Campos vectoriales en variedades diferenciales.
+* Tensores
+* Geometría Riemanniana elemental, tensores
+* Formas diferenciales, geometría y aplicaciones
 
 ----------------------
 Texto
 ----------------------
 
-<ul>
-<li>M. Spivak, Calculus on Manifolds
-<li>Flanders, Differential Forms with Applications to the Physical Sciences
-</ul>
+M. Spivak, Calculus on Manifolds
+
+Flanders, Differential Forms with Applications to the Physical Sciences
 
 
 ----------------------
@@ -47,9 +57,23 @@ Asignaciones varias: 20
 examenes: 80 
 Total: 100 
 
-Las fechas de examen se discutirán en los primeros días
-del curso. Las evaluaciones se harán en las fechas más
-adecuadas para el curso según la evolución del mismo.
+El enfoque del curso no será en los conceptos geométricos, sino en
+las herramientas (cálculo vectorial, tensorial y formas diferenciales)
+que nacen de ellas y se utilizan en ellas. Por ser de caracter
+principalmente práctico, en las dos primeras partes del curso puede
+parecer que el contenido matemático se amontona, pero en énfasis
+será en las técnicas de cálculo y en ciertos conceptos teóricos básicos.
+Por ejemplo, no estudiaremos la demostración del teorema de Levi-Civita,
+pero lo usaremos de forma indirecta; también se pedirá que el alumno
+conozca la definición de variedad diferenciable y la deducción del sistema
+de Frenet, pero no se ahondará en teoremas sobre, por ejemplo, congruencia
+de curvas según su curvatura y torsión.
+
+El docente procurará puntualizar los puntos a evaluar, pues el contenido
+tiene un panorama muy amplio.
+
+Las evaluaciones se harán en las fechas más adecuadas para el curso
+según la evolución del mismo.
 
 Los exámenes pueden estar sujetos a una exposición de
 parte del alumno o entrevista para tener una idea más clara
@@ -57,10 +81,10 @@ del trabajo y resultados realizados.
 
 Las fechas de evaluaciones propuestas a continuación son tentativas:
 
-Examen 1: 
-Examen 2: 
-Examen 3: 
-Reposición: 
+Examen 1: miercoles 9 de marzo
+Examen 2: jueves 24 de marzo
+Examen 3: martes 26 de abril
+Reposición: jueves 28 de abril
 
 
 ----------------------
@@ -177,4 +201,4 @@ Reglas generales
 * No deben compartirse ningún material de la clase con 
     personas externas al curso sin consentimiento del docente.
 
-(edición 2201225)
+(edición 2201225-2)
