@@ -42,10 +42,11 @@ Temas:
 Texto
 ----------------------
 
-M. Spivak, Calculus on Manifolds
+Do Carmo, Riemannian Geometry
 
 Flanders, Differential Forms with Applications to the Physical Sciences
 
+M. Spivak, Calculus on Manifolds
 
 ----------------------
 Evaluación
