@@ -1,0 +1,192 @@
+======================================
+SILABO MMM-620 Análisis Matemnatico Aplicado
+I periodo académico 2022
+======================================
+
+Docente: Oswaldo Sevilla
+
+correo: osevilla {arroba} unah.edu.hn
+
+Consultas previa cita
+
+
+----------------------
+Descripción del curso
+----------------------
+
+En este curso estudiaremos Análisis Funcional lineal, y
+estudiaremos aplicaciones del mismo.
+
+Temas:
+
+* Espacios Métricos, Espacios de Banach, Operadores Lineales Acotados
+* Cálculo Diferencial en Espacios Normados
+* Espacios de Hilbert, Teorema de Representación de Riesz
+* Conjuntos ortogonales y series de Fourier
+* Aplicaciones en la teoría de aproximaciones
+* Introducción a la Teoría de Distribuciones
+
+----------------------
+Texto
+----------------------
+
+Rynne, Linear Functional Analysis, Springer
+
+----------------------
+Evaluación
+----------------------
+
+La evaluación será basada en asignaciones y 3 exámenes.
+
+Asignaciones varias: 20 
+examenes: 80 
+Total: 100 
+
+El enfoque 
+
+Las evaluaciones se harán en las fechas más adecuadas para el curso
+según la evolución del mismo.
+
+Los exámenes pueden estar sujetos a una exposición de
+parte del alumno o entrevista para tener una idea más clara
+del trabajo y resultados realizados.
+
+Las fechas de evaluaciones propuestas a continuación son tentativas:
+
+Examen 1: miercoles 9 de marzo
+Examen 2: jueves 24 de marzo
+Examen 3: martes 26 de abril
+
+
+----------------------
+Sobre las asignaciones
+----------------------
+
+Siempre entregue los archivos de la asignación con 
+el nombre de archivo siguiente:
+
+(nombre de tarea)-(primer apellido)-(inicial del primer nombre).(extensión)
+
+Ejemplo: si voy a entregar un pdf de la tarea07 , entonces entrego:
+
+tarea07-Sevilla-O.pdf
+
+Se motiva al estudiante, para su propio provecho y en caso
+que no lo conozca, a aprender a usar el lenguaje
+latex o cualquiera de sus variantes. Aún así, no
+será requerido. Estas variantes de tex son especialmente
+adecuadas para citar fuentes bibliográficas. Hay
+varias distribuciones disponibles. Si el estudiante no
+tiene experiencia con esto, se recomienda que
+converse con el docente al respecto.
+
+Las asignaciones pueden entregarse de varias formas:
+* formato txt, con cuidado de redactar un documento
+    adecuado. No es difícil en gneeral.
+* formato pdf, escritos usando LaTeX .
+* formato pdf producido usando cualquier otro
+    lenguaje o aplicación (Markdown, Lyx, etc.).
+* formato html que use mathjax (de ser necesario usar mathjax),
+    donde los símbolos matemáticos se muestren bien.
+* a mano (previa aprobación del docente), en un
+    solo archivo pdf. DEBE ser legible, no debe ser oscuro.
+
+La simplicidad de los archivos de texto llano (txt) es algo
+que actualmente no se valora.
+
+Si el estudiante desea usar otro tipo de archivo
+que no sea uno listado arriba para los reportes,
+debe consultarlo previamente con el docente. 
+
+NUNCA envíen archivos de Word.
+
+Cuando se solicite al alumno algún tipo de archivo
+como información complementaria a su trabajo (como, por
+ejemplo, un reporte sobre un programa y el programa en sí),
+los archivos adicionales han de ser provistos en un archivo 
+comprimido en zip o tgz ADICIONALMENTE AL archivo del reporte.
+Si el trabajo no involucra un reporte (por ejemplo, si se
+pide un programa), entonces solo se incluirá el archivo
+comprimido. Siempre ha de seguirse las instrucciones 
+específicas en la descripción de cada tarea, las que tienen
+prioridad ante estas reglas generales.
+
+En resumen, se entregarán los archivos en .pdf , .txt ,
+.html , .zip  o .tgz , o combinación de ellos.
+
+Los estudiantes deben hacer uso correcto de citas
+bibliográficas de cualquier fuente a la que hagan
+referencia. Para ello se aconseja el uso de Latex
+y bibtex o biblatex.
+
+
+----------------------
+Reglas generales
+----------------------
+
+* El plagio y deshonestidad son prohibidos. Naturalmente.
+    Es prohibido copiar o dar copia, ser autor o cómplice.
+    Estas actitudes están sujetas a las consecuencias
+    correspondientes.
+* Es prohibido grabar la clase sin consentimiento del docente y
+    de los participantes de la clase.
+* No deben compartirse ningún material de la clase con 
+    personas externas al curso sin consentimiento del docente.
+* El tiempo de entrega de exámenes es estricto. Ese horario
+    es inamovible.
+* Es responsabilidad del estudiante revisar que cada
+    asignación se suba de forma exitosa. Deben estar
+    pendientes de esto cada vez que suban asignaciones.
+    Los correos que estén almacenados en la bandeja de
+    enviados pueden servir de comprobación de envío.
+* Solamente se aceptarán asignaciones entregadas en el tiempo
+    establecido. No se aceptarán trabajos fuera de tiempo.
+* Si fallan la hora máxima de entrega cualquiera por una
+    razón justificable, es necesario que avisen a más tardar
+    48 horas después de la hora límite de entrega. De otra
+    forma su caso NO SERÁ CONSIDERADO. Que la razón sea
+    justificable dependerá del criterio del docente al
+    conversar al respecto, o de un juicio posterior por
+    parte de las autoridades inmediatamente superiores al
+    docente.
+* Los días justo antes de subir notas no son días para
+    presentar noticias o excusas respecto a problemas con la
+    clase. Cualquier discusión al respecto tiene que ser
+    antes de ese tiempo, de lo contrario se tomará como
+    irresponsabilidad, a menos que las circunstancias lo
+    justifiquen.
+* Las instrucciones en los exámenes y asignaciones deben
+    seguirse al pie de la letra, a menos que el docente
+    de una libertad explícita al respecto. Es una falta
+    no seguirlas sin pedir autorización al docente.
+* El examen de reposición incluye el contenido de todo el
+    curso.
+* Toda comunicación oficial respecto a la clase debe
+    realizarse a través del correo institucional. Hay
+    canales alternativos de comunicación que pueden ser
+    convenientes para informar (Campus Virtual, Telegram,
+    etc), pero solicitudes respecto a la clase, como por
+    ejemplo comunicar problemas de envíos de asignaciones,
+    han de realizarse por fuerza a través de los correos
+    institucionales, tanto del docente como del alumno.
+* Todo comentario, duda o queja respecto a la clase debe ser
+    conversado primero con el Profesor antes de considerar
+    vías alternas.
+* Es inaceptable una queja o inconformidad con la clase
+    que se exprese a otros docentes o jefes de unidades
+    sin que se haya conversado directamente con el docente.
+    Debe respetarse la jerarquía. Esto es directriz general
+    para el comportamiento en el medio unviersitario.
+* Las fechas y horas de una tarea se expresan directamente
+    en la descripción de la misma, es la única hora oficial.
+    La hora que muestre el Campus Virtual no es la definición
+    de la hora de entrega, y si es distinta siempre la hora
+    oficial será la indicada en la noticia de la tarea.
+    Claramente, el docente puede corregirla si existe alguna
+    incoherencia o problema.
+* Inconformidades con las medidas del docente deben
+    expresarse directamente al docente, para poder presentarlas
+    a consideración de los superiores inmediatos en la
+    Carrera de Matemáticas.
+
+(edición 2201227)
