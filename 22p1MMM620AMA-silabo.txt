@@ -30,6 +30,9 @@ Temas:
 Texto
 ----------------------
 
+Zeidler, Applied Functional Analysis: main principles and their applications,
+Applied mathematical sciences, Springer-Verlag New York Inc.
+
 Rynne, Linear Functional Analysis, Springer
 
 ----------------------
