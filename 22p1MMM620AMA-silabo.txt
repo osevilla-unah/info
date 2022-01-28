@@ -31,9 +31,9 @@ Texto
 ----------------------
 
 Zeidler, Applied Functional Analysis: main principles and their applications,
-Applied mathematical sciences, Springer-Verlag New York Inc.
+Applied mathematical sciences, Springer-Verlag New York Inc., 1995
 
-Rynne, Linear Functional Analysis, Springer
+Rynne, Linear Functional Analysis, Springer, 2008
 
 ----------------------
 Evaluación
