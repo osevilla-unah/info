@@ -30,6 +30,14 @@ Temas:
 Texto
 ----------------------
 
+Stein, Shakarchi, Functional Analysis, Princeton Lectures in Analysis, 
+Princeton University Press
+
+Stein, Shakarchi, Fourier Analysis, Princeton Lectures in Analysis, 
+Princeton University Press
+
+Referencias adicionales:
+
 Zeidler, Applied Functional Analysis: main principles and their applications,
 Applied mathematical sciences, Springer-Verlag New York Inc., 1995
 
