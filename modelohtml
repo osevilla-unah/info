@@ -1,0 +1,26 @@
+<html>
+<head> <meta charset=utf-8> </head>
+<title>información, recursos, cursos, etc.</title>
+
+<body bgcolor="lightgray", style="width:80%;">
+
+<h1> Titulo </h1>
+
+<h2> cursos y eventos </h2>
+<ul>
+<li><a href= algo.html > titulo del link  </a>
+<li><a href= algo.html > titulo </a>
+</ul>
+
+<h2> recursos </h2>
+
+<hr>
+<h2>links</h2>
+<a href= > algo </a></br>
+
+<hr>
+
+</body>
+
+<footer>  </footer>
+</html>

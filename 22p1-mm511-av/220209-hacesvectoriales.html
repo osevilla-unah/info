@@ -1,0 +1,88 @@
+<html>
+<head> <meta charset=utf-8> </head>
+<title>Haces y Campos Vectoriales</title>
+
+$\def\RR{\Bbb{R}}$ $\def\RRn{\RR^n}$
+$\def\phit{\phi_t}$ $\def\phitx{\phi_t(x)}$
+$\def\pow{^}$ $\def\intot{\int_0\pow {t}}$ $\def\dd{\mathrm{d}}$
+$\newcommand\sen{\operatorname{sen}}$
+<!-- $ \def\derp#1#2{ \frac{\partial #1}{\partial #2}  } $ %revisar luego esto-->
+
+<body bgcolor="lightgray", style="width:80%;">
+
+<h1>Haces y Campos Vectoriales, en $\RRn$ </h1>
+
+<p>Este resumen puede servirles de referencia futura.
+
+<h2>Haces vectoriales en $\RRn$ </h2>
+
+<p>Un haz vectorial sobre $\RRn$ puede entenderse como
+poner una copia de un campo vectorial específico en cada
+punto de $\RRn$. Esto que puede sonar "trivial" es el
+punto de partida para estudiar esta construcción más
+en general, en variedades diferenciales (o diferenciables).
+
+<p>Esto puede formalizarse como: Un haz vectorial sobre $\RRn$
+es un espacio topológico $X$, un espacio vectorial $V$ y una
+función sobreyectiva $\pi$ de la siguiente forma
+
+$$
+X \xrightarrowarrow{\pi} \RRn
+$$
+
+tal que cada fibra es $V$, es decir: $\pi^{-1}(p)=V$
+para todo $p$.
+
+<p>El conjunto de llegada se llama espacio base.
+
+<p>Un haz vectorial como el descrito siempre es homeomorfo
+a $\RRn \times V$, y a esto se le llama fibración trivial.
+
+<p> La razón de aseverar este homeomorfismo está fuera de
+los temas del curso, pero es interesante que lo puedan
+revisar.
+
+<h2>Campos vectoriales</h2>
+
+<p>Un campo vectorial es asociar a cada punto del 
+espacio base un vector en el espacio vectorial que le
+corresponde. Se puede traducir esto de esta forma:
+un campo vectorial es una función
+$$
+f:\RRn \rightarrow X
+$$
+
+Tal que $\pi \circ f = \text{identidad}$
+
+<p> Vea cómo una función así definida resume
+todas las propiedades de un campo vectorial.
+
+<h2>Haz tangente de $\RRn$</h2>
+
+El haz vectorial "más natural" en $\RRn$ (y en 
+las variedades diferenciales) es el haz tangente.
+El haz tangente asigna a cada punto el espacio vectorial
+"de las direcciones en las que se puede mover sobre
+ese espacio".
+
+<p>El concepto de movimiento y dirección
+de movimiento tiene una descripción explícita
+a través de mapeos lisos de curvas, pero por ahora
+nos contentamos con la noción intuitiva de lo que
+se ve en un plano: las direcciones son un $\RR\pow2$.
+
+<p> Siguiendo esta noción intuitiva, no es difícil
+hacer ver que el haz tangente en $\RRn$ asigna una
+copia de $V=\RRn$ en cada punto del espacio base.
+Así que el haz tangente de $\RRn$ es
+
+$$
+T\RRn : = \RRn \times V = \RR\pow {2n}
+$$
+
+</body>
+
+<!-- el inject de mathjax permite definir cosas -->
+<script> MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } }; </script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> </script>
+
+</html>
