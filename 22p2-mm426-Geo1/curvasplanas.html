@@ -7,6 +7,8 @@ $\def\phit{\phi_t}$ $\def\phitx{\phi_t(x)}$
 $\def\pow{^}$ $\def\intot{\int_0\pow {t}}$ $\def\dd{\mathrm{d}}$
 $\newcommand\sen{\operatorname{sen}}$
 $\newcommand\ra{\rightarrow}$
+$\newcommand\dd{\operatorname{d}}$
+
 <!-- $ \def\derp#1#2{ \frac{\partial #1}{\partial #2}  } $ %revisar luego esto-->
 
 <body bgcolor="lightgray", style="width:80%;">
@@ -48,7 +50,6 @@ calcularse directamente por la regla de la cadena.
 
 <p><b>La rapidez</b> de una curva es la magnitud de su velocidad.
 
-
 <p>Para una curva regular, existe una reparametrización que produce una
 curva de rapidez unitaria (rapidez constante 1)
 
@@ -61,15 +62,35 @@ h(t) = t/5
 $$ 
 <br>observe que esto se obtiene directo de las ecuaciones.
 
-<p><b>Ejercicio:</b> Encontrar una reparametrización de rapidez unitaria
+<p><b>Ejercicio 1:</b> Encontrar una reparametrización de rapidez unitaria
 para la curva
 $$
-t\mapsto(R\cos(t), R\sin(t))
+t\mapsto(R\cos(t), R\sen(t))
 $$ 
 Utilice la información de las ecuaciones que definen la parametrización
 unitaria.
 
+<p><b>La función longitud de arco</b> de una curva $\alpha$ es 
+la función dada por
+$$
+s(t):=\int_0^t{\|\alpha'(t)\|\dd t}
+$$
 
+<p>Por esto, también escribiremos $\frac{\dd s}{\dd t}$ para la rapidez.
+
+<p><b>Un campo vectorial sobre una curva</b> es una función que asigna
+a cada punto de una curva un vector. Formalizaremos este concepto luego con
+el concepto de haces vectoriales y campos vectoriales.
+
+<p>Una curva de rapidez unitaria $\alpha(s)$ (vea que el parámetro es a la
+vez una medida de la longitud) tiene un campo de velocidad $\alpha'(s)$.
+Este campo será llamado campo tangente y se denotará por $T(s)$.
+
+<p>Todo campo de magnitud constante tiene la propiedad de que su derivada
+es un campo ortogonal al mismo. Esto es un hecho muy importante. Esto es
+una consecuencia inmediata al analizar la derivada de la función $\|T\|^2$.
+Es un buen ejercicio comprobar esto según el material al momento, pero 
+dde igual forma lo veremos en breve.
 <!--
 $$
 X \xrightarrow{\pi} \RRn
