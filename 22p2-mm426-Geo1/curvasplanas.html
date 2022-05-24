@@ -26,6 +26,9 @@ el que llamamos punto base, que es donde el vector está parado.
 
 <p><b>Una curva regular</b> es una curva cuya velocidad no se anula nunca.
 
+<p><b>Una reparametrización</b> de una curva $ \alpha:I\ra \RRb $ es
+una función $h:J \ra I$ de un intervalo J a un intervalo I. Tomaremos
+estas funciones diferenciables y tales que su derivada no se anula nunca.
 
 <p>Si tenemos una curva
 
@@ -45,21 +48,36 @@ calcularse directamente por la regla de la cadena.
 
 <p><b>La rapidez</b> de una curva es la magnitud de su velocidad.
 
+
 <p>Para una curva regular, existe una reparametrización que produce una
 curva de rapidez unitaria (rapidez constante 1)
 
 <p>Por ejemplo: para la curva $\alpha:I\ra \RRb:t\mapsto(3t,4t)$ se tiene
 que su rapidez es la función constante 5, entonces se ocupa una función
-h tal que $\|\beta'\|=\|\alpha'(h) h'\|=\sqrt{25h^2}|h'|$ 
+h tal que $\|\beta'\|=\|\alpha'(h) h'\|=\sqrt{25h^2}|h'|=5|h'|=1$, así que
+queremos una parametrización 
+$$
+h(t) = t/5
+$$ 
+<br>observe que esto se obtiene directo de las ecuaciones.
+
+<p><b>Ejercicio:</b> Encontrar una reparametrización de rapidez unitaria
+para la curva
+$$
+t\mapsto(R\cos(t), R\sin(t))
+$$ 
+Utilice la información de las ecuaciones que definen la parametrización
+unitaria.
 
 
+<!--
 $$
 X \xrightarrow{\pi} \RRn
 $$
 
 tal que cada fibra es $V$, es decir: $\pi^{-1}(p)=V$
 para todo $p$.
-
+-->
 
 </body>
 
