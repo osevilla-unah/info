@@ -1,0 +1,69 @@
+<html>
+<head> <meta charset=utf-8> </head>
+<title>Haces y Campos Vectoriales</title>
+
+$\def\RR{\Bbb{R}}$ $\def\RRn{\RR^n}$ $\def\RRb{\RR^2}$
+$\def\phit{\phi_t}$ $\def\phitx{\phi_t(x)}$
+$\def\pow{^}$ $\def\intot{\int_0\pow {t}}$ $\def\dd{\mathrm{d}}$
+$\newcommand\sen{\operatorname{sen}}$
+$\newcommand\ra{\rightarrow}$
+<!-- $ \def\derp#1#2{ \frac{\partial #1}{\partial #2}  } $ %revisar luego esto-->
+
+<body bgcolor="lightgray", style="width:80%;">
+
+<h1>Curvas regulares en $\RRb$ </h1>
+
+<p>Este resumen puede servirles de referencia futura.
+
+<p><b>Una curva plana</b> es un mapeo de un intervalo real a $\RRb$.
+Nosotros tomaremos este intervalo en general abierto y el mapeo
+será diferenciable.
+
+<p>Es conocida la derivada de una curva, que tiene como componentes
+las derivadas de las coordenadas de la curva. La velocidad tiene
+entonces tanto dirección (parte vectorial) como punto de aplicación,
+el que llamamos punto base, que es donde el vector está parado.
+
+<p><b>Una curva regular</b> es una curva cuya velocidad no se anula nunca.
+
+
+<p>Si tenemos una curva
+
+$$
+\alpha:I\rightarrow \RRb
+$$
+
+<p>y una reparametrización:
+
+$$
+h:J \rightarrow I
+$$  
+
+<p>Entonces la reparametrización $\beta=\alpha \circ h$ 
+tiene una velocidad que puede
+calcularse directamente por la regla de la cadena.
+
+<p><b>La rapidez</b> de una curva es la magnitud de su velocidad.
+
+<p>Para una curva regular, existe una reparametrización que produce una
+curva de rapidez unitaria (rapidez constante 1)
+
+<p>Por ejemplo: para la curva $\alpha:I\ra \RRb:t\mapsto(3t,4t)$ se tiene
+que su rapidez es la función constante 5, entonces se ocupa una función
+h tal que $\|\beta'\|=\|\alpha'(h) h'\|=\sqrt{25h^2}|h'|$ 
+
+
+$$
+X \xrightarrow{\pi} \RRn
+$$
+
+tal que cada fibra es $V$, es decir: $\pi^{-1}(p)=V$
+para todo $p$.
+
+
+</body>
+
+<!-- el inject de mathjax permite definir cosas -->
+<script> MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } }; </script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> </script>
+
+</html>
