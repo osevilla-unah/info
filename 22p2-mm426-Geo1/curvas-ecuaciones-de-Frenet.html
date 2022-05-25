@@ -1,0 +1,104 @@
+<html>
+<head> <meta charset=utf-8> </head>
+<title> material de clase </title>
+
+$\def\RR{\Bbb{R}}$ $\def\RRn{\RR^n}$ 
+$\def\RRb{\RR^2}$ $\def\RRc{\RR^3}$
+$\def\phit{\phi_t}$ $\def\phitx{\phi_t(x)}$
+$\def\pow{^}$ $\def\intot{\int_0\pow {t}}$ $\def\dd{\mathrm{d}}$
+$\newcommand\sen{\operatorname{sen}}$
+$\newcommand\ra{\rightarrow}$
+$\newcommand\dd{\operatorname{d}}$
+
+<!-- $ \def\derp#1#2{ \frac{\partial #1}{\partial #2}  } $ %revisar luego esto-->
+
+<body bgcolor="lightgray", style="width:80%;">
+
+<h1>Ecuaciones de Frenet </h1>
+
+<p>Se puede definir curvas en el espacio, simplemente por mapeos
+(diferenciables) de un intervalo a $\RRc$.
+
+<p>Para curvas en el espacio de rapidez constante, el campo
+tangente se define de la misma forma:
+
+$$
+T(s) = \alpha'(s)
+$$
+
+El campo normal se define de la misma forma, normalizando la
+derivada del campo tangente. Se obtiene la siguiente ecuación:
+
+$$
+T' = \kappa N
+$$
+
+Esta es la primer ecuación de Frenet.
+
+Se define un nuevo vector, el <b>vector binormal</b> por
+$$
+B=T \times N
+$$
+
+Esto produce en cada punto de la curva una base vectorial que
+tiene la orientación de la mano derecha: $T, N, B$. Esta es una
+base ortonormal en cada punto, se llama <b>el sistema de
+Frenet</b> de la curva. 
+
+Los campos N y B también cumplen con ecuaciónes diferenciales
+importantes. Observe que $N'$ es ortogonal a $N$, así que es
+combinación lineal de T y B. Como $T\cdot N$ es constante,
+entonces tomando su derivada se obtiene:
+
+$$
+T'\cdot N =-N'\cdot T
+$$
+
+Así que, aprovechando la propiedad de ser base ortonormal, se
+tiene con esto el componente de $N'$ en dirección T.
+
+<b>Se define la torsión</b> como el componente de $N'$ en
+dirección B:
+$$
+\tau = N' \cdot B
+$$ 
+
+De esta manera tenemos la segunda ecuación de Frenet:
+
+$$
+N'=-\kappa T + \tau B
+$$
+
+Y la tercera ecuación de Frenet:
+$$
+B' = -\tau N
+$$
+
+<b>Asignación:</b> Demuestre que la tercera ecuación de Frenet
+tiene esta forma, usando las propiedades del producto punto de
+los campos.
+
+De esta forma tenemos las <b>ecuaciones de Frenet</b>:
+
+$$
+\begin{align}
+T'&= \kappa N \\
+N'&=-\kappa T + \tau B \\
+B'&= -\tau N
+\end{align}
+$$
+
+<b>Observación:</b> La curvatura da el recíproco del radio del
+círculo que mejor se ajusta a la curva.
+
+
+
+<p>
+
+
+</body>
+
+<!-- el inject de mathjax permite definir cosas -->
+<script> MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } }; </script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> </script>
+
+</html>

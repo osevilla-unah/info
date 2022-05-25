@@ -1,0 +1,46 @@
+<html>
+<head> <meta charset=utf-8> </head>
+<title> material de clase </title>
+
+$\def\RR{\Bbb{R}}$ $\def\RRn{\RR^n}$ $\def\RRb{\RR^2}$
+$\def\phit{\phi_t}$ $\def\phitx{\phi_t(x)}$
+$\def\pow{^}$ $\def\intot{\int_0\pow {t}}$ $\def\dd{\mathrm{d}}$
+$\newcommand\sen{\operatorname{sen}}$
+$\newcommand\ra{\rightarrow}$
+$\newcommand\dd{\operatorname{d}}$
+
+<!-- $ \def\derp#1#2{ \frac{\partial #1}{\partial #2}  } $ %revisar luego esto-->
+
+<body bgcolor="lightgray", style="width:80%;">
+
+<h1>Curvas de torsión cero </h1>
+
+<p>La torsión tiene sentido geométrico y justificación de su nombre
+por el hecho de que las curvas en $\RRc$ tienen torsión cero si y
+sólo si son planas.
+
+<p>Una forma de ver que una curva de torsión cero es plana es
+encontrando el plano en el que vive. Sea p un punto cualquiera de
+la curva $c(s)$ de rapidez unitaria. Forme la curva
+$v(s)=c(s)-p$. Con esto, usando las ecuaciones de Frenet y que la
+torsión es cero se obtienen dos cosas: primero que el campo B es
+constante, y segundo que $v\cdot B$ es constante, es cero. De
+esta forma, la curva c vive en el plano ortogonal a B que
+pasa por p. 
+
+<p><b>Asignación:</b>
+Compruebe los detalles faltantes en la demostración anterior
+usando las ecuaciones de Frenet y la torsión cero.
+
+<p><b>Asignación:</b>
+Demuestre la relación recíproca: que una curva plana tiene
+torsión cero.
+
+
+
+</body>
+
+<!-- el inject de mathjax permite definir cosas -->
+<script> MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } }; </script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> </script>
+
+</html>

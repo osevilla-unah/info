@@ -1,0 +1,80 @@
+<html>
+<head> <meta charset=utf-8> </head>
+<title> material de clase </title>
+
+$\def\RR{\Bbb{R}}$ $\def\RRn{\RR^n}$ $\def\RRb{\RR^2}$
+$\def\phit{\phi_t}$ $\def\phitx{\phi_t(x)}$
+$\def\pow{^}$ $\def\intot{\int_0\pow {t}}$ $\def\dd{\mathrm{d}}$
+$\newcommand\sen{\operatorname{sen}}$
+$\newcommand\ra{\rightarrow}$
+$\newcommand\dd{\operatorname{d}}$
+
+<!-- $ \def\derp#1#2{ \frac{\partial #1}{\partial #2}  } $ %revisar luego esto-->
+
+<body bgcolor="lightgray", style="width:80%;">
+
+<h1>Rapidez unitaria y campo tangente </h1>
+
+<p>Con la función $s(t)$ de longitud de arco de una curva
+$\alpha(t)$ se puede definir una
+reparametrización (vista como de forma "inversa", según la
+definición), donde se hace un poco de abuso de notación: $\alpha(s)$
+
+<p>Formalmente, la curva $\alpha(s)$ es la curva $\beta(s) =
+\alpha(f(s))$, donde $f$ es la función inversa de s.
+
+<p><b>Asignación:</b> estudie por qué existe la función inversa
+de $s$, y cómo puede usar el símbolo $\alpha(s)$ sin confusión.
+
+<p>De esta forma, el campo tangente $T(s)=\alpha'(s)$ define un
+vector $T(s)$ sobre el punto $\alpha(s)$. Esto es muy importante.
+Estos vectores no "andan volando" en el espacio. El campo T tiene
+norma constante 1.
+
+<p>El campo tangente tiene la propiedad de que su derivada es
+ortogonal al campo. Esto es porque
+
+$$
+(\|T\|^2)'= (T\cdot T)' = 2 T'\cdot T = 0
+$$
+
+<p><b>Asignación:</b> Compruebe la fórmula usada arriba para la
+derivada de un producto punto.
+
+<p>Para una curva de rapidez unitaria <b>definimos el campo normal </b> por 
+$$
+N=\frac{1}{\|T'\|}T'
+$$
+
+<p>Este campo N, dado que T es de norma constante, es ortogonal a
+T. De aquí su nombre. Es un campo por definición de norma 1.
+
+<p>Se obtiene una ecuación diferencial importante:
+
+$$
+N' = \kappa T
+$$
+
+<p><b>Definimos la curvatura</b> de una curva de rapidez unitaria 
+por esta función $\kappa(s)$,
+que por definición es la norma de la derivada del campo tangente.
+
+<p>Para curvas generales, se reparametriza. De esta manera se
+obtienen los campos $T(t) = T(s(t))$, etc.
+
+<p><b>Observaciones:</b> 
+<ul>
+<li>Esta curvatura no tiene signo. Se puede
+definir una curvatura con signo, que es importante en algunos
+contextos.
+<li>Cuando el campo T es constante, es obviamente ambiguo definir
+el campo normal. Esto pasa con las rectas, pero no para una curva
+general.
+</ul> 
+
+</body>
+
+<!-- el inject de mathjax permite definir cosas -->
+<script> MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } }; </script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> </script>
+
+</html>
