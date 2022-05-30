@@ -1,0 +1,79 @@
+<html>
+<head> <meta charset=utf-8> </head>
+<title>
+Variedades Diferenciales
+</title>
+
+$\def\RR{\Bbb{R}}$ $\def\RRn{\RR^n}$ $\def\RRb{\RR^2}$
+$\def\phit{\phi_t}$ $\def\phitx{\phi_t(x)}$
+$\def\pow{^}$ $\def\intot{\int_0\pow {t}}$ $\def\dd{\mathrm{d}}$
+$\newcommand\sen{\operatorname{sen}}$
+$\newcommand\ra{\rightarrow}$
+$\newcommand\dd{\operatorname{d}}$
+
+<!-- $ \def\derp#1#2{ \frac{\partial #1}{\partial #2}  } $ %revisar luego esto-->
+
+<body bgcolor="lightgray", style="width:80%;">
+
+<h1>
+Variedades Diferenciales
+</h1>
+
+<p>
+En este documento se expondrá un breve resumen de Variedades
+Diferenciales. Se recomienda como referencia el libro de Do Carmo
+de Differential Geometry of Curves and Surfaces (y la demás
+referencias).
+
+<p>
+Una Variedad Diferencial o Diferenciable de dimensión n es un
+conjunto $M$ para el cual existe una colección de abiertos de
+$\RRn$, ${U_i}_i$, tales que para cada uno existe un mapeo
+biyectivo $\phi_i:U_i \to M$. Estos abiertos junto a los mapeos
+se llaman cartas. Se pide que:
+
+<ul>
+<li> la unión de las imágenes cubra todo $M$
+<li> los mapeos $\phi_j^{-1}\circ\phi_i$ (restringidos
+adecuadamente) son funciones diferenciables en $\RRn$
+<li> las cartas dan a $M$ una topología Hausdorff.  
+</ul>
+
+<p>
+A la colección de cartas se le llama Atlas.
+
+<h2>
+Ejemplo
+</h2>
+
+<p>
+Como ejemplo, se puede tomar la variedad en $\RRc$
+
+$$
+M:z-xy=0
+$$
+
+<p>
+Se puede cubrir toda la variedad con una sola carta:
+
+$$
+U=\RRb \to M: (u,v) \mapsto (u,v,uv) 
+$$
+
+<p>
+Como solo se necesita esta carta, las propiedades de cubrir toda
+la variedad, de composiciones diferenciables y de topología de
+Hausdorff se cumplen inmediatamente (revise esto).
+
+
+<p>
+Las cartas son como los mapas del atlas conocido del planeta
+Tierra. Por esto tienen este nombre, porque proviene del estudio
+de cartografía.
+
+</body>
+
+<!-- el inject de mathjax permite definir cosas -->
+<script> MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } }; </script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> </script>
+
+</html>
