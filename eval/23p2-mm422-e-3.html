@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>evaluacion</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+
+<h2> Estructuras Algebraicas II. Examen 3 </h2>
+
+<p> Inicio: 18:00, fin: 20:00
+
+<!--
+hagan los ejercicios del 1 al 6 de esta sección 3.1, esto es la
+tareea llamada tarea03
+Esto forma la tarea04: Ejercicio 1 de la sección 3.5 y Ejercicios
+del 1 al 5 de la sección 6.2
+-->
+
+<p><b>Instrucciones:</b>
+<ul>
+<li> Realice a mano
+<li> Use hojas blancas (papel bond, por ejemplo) Justifique 
+sin falta si no le es posible.
+<li> Tome fotos o scans legibles. 
+<li> Escriba su nombre en cada página.
+<li> Enumere las páginas y los problemas.
+<li> Marque clara y visiblemente sus respuestas.
+<li> cumpla sin falta con la hora máxima de entrega.
+</ul>
+<b>Faltar con una de las instrucciones lo expone a sanción</b>
+
+<p> Lea todo el examen primero. Haga sus observaciones de lectura
+temprano. </p>
+
+$\def\RR{\Bbb{R}}$ $\def\RRn{\RR^n} \def\RRb{\RR^2}$
+$\def\QQ{\Bbb{Q}}$ $\def\NN{\Bbb{N}}$
+$\def\phit{\phi_t}$ $\def\phitx{\phi_t(x)}$
+$\def\pow{^}$ $\def\intot{\int_0\pow {t}}$ $\def\dd{\mathrm{d}}$
+$\newcommand\mms{\mathrm{m}^*}$
+$\def\into#1{\int_0\pow {#1}}$
+<!-- $ \def\derp#1#2{ \frac{\partial #1}{\partial #2}  } $ %revisar luego esto-->
+
+<!-- preguntas (&nbsp; para el espacio no break y no collapse)-->
+
+<p><b>A. Tipo verdadero o falso.</b> No necesita justificación.
+Solo escriba sus respuestas en la hoja, no los enunciados.
+<b>Recuerde mostrar sus respuestas bien marcadas y en orden.</b>
+
+<p>A. ( ) ¿Es $\NN$ un anillo?
+<p>A. ( ) ¿Es $\QQ[x]$ un anillo?
+<p>A. ( ) Si A es un dominio, ¿es $A\oplus A$ un dominio?
+<p>A. ( ) ¿Hay casos donde el núcleo de un homomorfismo de
+anillos no es un ideal?
+<p>A. ( ) ¿Un ideal es un subanillo?
+<p>A. ( ) ¿Todo subanillo de un anillo A es ideal de A?
+<p>A. ( ) ¿Es $\RR[x]$ un campo?
+<p>A. ( ) ¿Es $x^2-1$ maximal en $\QQ[x]$?
+<p>A. ( ) Si un polinomio de grado 4 en $\QQ[x]$ se hace cero en
+ningún punto de $\QQ$, entonces ¿Debe ser irreducible?
+<p>A. ( ) ¿Es $x^2+1$ irreducible en $\RR[x]$?
+<p>A. ( ) ¿Es $\RR[x]$ un espacio vectorial sobre $\RR$? 
+<p>A. ( ) ¿Son las soluciones de un sistema de ecuaciones
+lineales <b>homogéneo</b> un espacio vectorial?
+<p>A. ( ) ¿Son las soluciones de un sistema de ecuaciones
+lineales <b>no homogéneo</b> un espacio vectorial?
+<p>B. ¿Es $\RR[x]/(x^2+1)$ un espacio vectorial sobre $\RR$?
+
+<p><b>B. Expositivo.</b> Responda a las preguntas. Justifique
+todo. Sea conciso pero no omita detalles importantes.
+
+<p>B.1 ¿Es $\QQ[x]$ un espacio vectorial sobre algún campo?
+<p>B.2 ¿Es $\RR[x]$ un espacio vectorial sobre $\QQ[x]$?
+<p>B.3 ¿Es $T:\RRb\rightarrow\RRb$ dada por $T(x,y)=(1+y,x)$ una
+transformación lineal?
+<!--
+<p>B.4 ¿Es la función $T$ del espacio de funciones contínuas en
+$\RR$ a las funciones contínuas en $\RR$ dada por 
+$$
+T(f)(x) = \into{x}{f}
+$$
+una transformación lineal?
+-->
+
+<p><b>C. Práctico.</b> Deje constancia de todo su trabajo.
+
+<p>C.2 Si f es un funcional lineal de $\RRb$ en $\RRb$, y
+$f(2,0)=1$ y $f(4,1)=2$, encuentre $f(1,1)$
+
+<p>C.3 Sea $V=\RR[x]/(x^5)$, y sea $D:V\rightarrow V$ la derivada.
+<br>C.3.1 Encuentre una base para V como espacio vectorial sobre $\RR$.
+<br>Para D encuentre:
+<br>C.3.2 su matriz, 
+<br>C.3.3 su imagen, 
+<br>C.3.4 núcleo, 
+<br>C.3.5 rango
+<br>C.3.6 nulidad.
+
+<p>C.4 Sea V un espacio vectorial generado por una base
+$B={u,v}$. Sea T un operador en V tal que $Tu=v$ y $Tv=u$ (como
+observación, esto se ve en el ejemplo de la derivada del seno y
+coseno hiperbólicos ). Encuentre
+<br>C.4.1 la matriz del operador T
+<br>C.4.2 el determinante del operador T
+<br>C.4.3 el polinomio característico del operador T
+<br>C.4.4 los valores propios del operador T
+<br>C.4.5 vectores propios asociados a estos vectores propios.
+ 
+
+<p><b>D. Demostrativo.</b>
+
+<p>D. Demuestre que si V y W son espacios vectoriales y T es una
+transformación lineal de V a W, el núcleo de T es un subespacio
+vectorial de V.
+
+
+<p><b>E. Bono. (solo se calificará después de una entrevista)</b>
+<br>Demuestre que para un operador T en un espacio vectorial de
+dimensión finita V sobre un campo F el conjunto de todos los
+polinomios $p(x)\in F[x]$ tal que $p(T)=0$ es un ideal que posee
+un polinomio mónico que lo genera. (Este polinomio es el
+polinomio mínimo del operador T)
+
+
+<!--<p><b>Observaciones:</b>-->
+
+<p><b>Recomendaciones generales:</b> Haga buen uso de su tiempo,
+pues el sistema no aceptará exámenes después de la hora indicada
+en el campus virtual.
+
+</body>
+
+
+<!-- el inject de mathjax permite definir cosas -->
+<script> MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }, svg: { fontCache: 'global' } }; </script> <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> </script>
+
+
+</html>
