@@ -5,6 +5,8 @@ SILABO MM-425 Topología
 
 Docente: Oswaldo Sevilla
 
+correo: osevilla@unah.edu.hn
+
 oficina: 410 C3
 
 Hora de consulta: 9:00AM
@@ -41,9 +43,9 @@ mejor forma.
 
 *** calendario propuesto***
 
-La calendarización propuesta de temas según
-semanas, y a desarrollarse según la disponibilidad de tiempo y el desempeño del curso,
-es la siguiente:
+La calendarización propuesta de temas según semanas, y a
+desarrollarse según la disponibilidad de tiempo y el desempeño
+del curso, es la siguiente:
 
 1 Topología, relación de fineza, bases
 2 Topología del orden, producto, de subespacio
@@ -95,21 +97,22 @@ Si se dan en clase o se envían por correo indicaciones
 específicas para un examen, esas indicaciones tienen
 preferencia ante estas del sílabo.
 
-Las fechas de evaluaciones propuestas a continuación son tentativas:
+Las fechas de evaluaciones propuestas a continuación son
+tentativas:
 
-Examen 1: a discutir
-Examen 2: a discutir
-Examen 3: a discutir
-Reposición: a discutir
+Examen 1: jueves 19 de oct
+Examen 2: jueves  9 de nov
+Examen 3: jueves 30 de nov
+Reposición: martes 5 de dic
 
 
 ----------------------
 Sobre las asignaciones
 ----------------------
 
-Las asignaciones se realizarán a mano.
-Los estudiantes subirán sus asignaciones al Campus Virtual. Enviarán cada una en un solo archivo pdf. DEBE ser legible, 
-no debe ser oscuro.
+Las asignaciones se realizarán a mano.  Los estudiantes subirán
+sus asignaciones al Campus Virtual. Enviarán cada una en un solo
+archivo pdf. DEBE ser legible, no debe ser oscuro.
 
 El nombre del archivo debe ser 
 
@@ -218,4 +221,4 @@ Reglas generales
 * Es prohibido compartir material de la clase sin 
     consentimiento del docente.
 
-230912 rev 220912
+230912 rev 220926
