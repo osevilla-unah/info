@@ -100,10 +100,10 @@ preferencia ante estas del sílabo.
 Las fechas de evaluaciones propuestas a continuación son
 tentativas:
 
-Examen 1: jueves 19 de oct
-Examen 2: jueves  9 de nov
-Examen 3: jueves 30 de nov
-Reposición: martes 5 de dic
+Examen 1: lunes 23 de octubre 
+Examen 2: miercoles 08 de noviembre
+Examen 3: miercoles 29 de noviembre
+Reposición: lunes 04 de diciembre
 
 
 ----------------------
@@ -221,4 +221,4 @@ Reglas generales
 * Es prohibido compartir material de la clase sin 
     consentimiento del docente.
 
-230912 rev 220926
+230912 rev 231020
